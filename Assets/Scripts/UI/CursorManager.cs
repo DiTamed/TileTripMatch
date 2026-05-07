@@ -2,12 +2,36 @@ using UnityEngine;
 
 public class CursorManager : MonoBehaviour
 {
-    public Texture2D cursorTexture;
+    public static CursorManager Instance;
 
-    void Start()
+    [SerializeField]
+    private Texture2D cursorTexture;
+
+    [SerializeField]
+    private Vector2 hotspot =
+        Vector2.zero;
+
+    private void Awake()
     {
-        Vector2 hotspot = Vector2.zero;
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
-        Cursor.SetCursor(cursorTexture, hotspot, CursorMode.Auto);
+        Instance = this;
+
+        DontDestroyOnLoad(gameObject);
+
+        SetCursor();
+    }
+
+    private void SetCursor()
+    {
+        Cursor.SetCursor(
+            cursorTexture,
+            hotspot,
+            CursorMode.Auto
+        );
     }
 }
