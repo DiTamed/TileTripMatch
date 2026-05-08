@@ -306,6 +306,7 @@ MonoBehaviour:
   sfxSource: {fileID: 1407397739}
   backgroundMusic: {fileID: 8300000, guid: a0d145c066d32364099ef5dd294d917b, type: 3}
   clickSound: {fileID: 8300000, guid: 07240ac031189e643a618b7a6aa16207, type: 3}
+  matchSound: {fileID: 8300000, guid: acd46a684198ed04ea3e918b1b821d10, type: 3}
 --- !u!4 &231871651
 Transform:
   m_ObjectHideFlags: 0

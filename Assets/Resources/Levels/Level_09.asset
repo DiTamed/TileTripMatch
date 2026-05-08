@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f590104a20041c4e99c2f7104a14793, type: 3}
+  m_Name: Level_09
+  m_EditorClassIdentifier: 
+  levelIndex: 9
+  targetMatchCount: 12
+  slotCount: 5
+  layerCount: 5
+  symbolTypeCount: 12
+  timeLimitSeconds: 80
+  tiles:
+  - symbol: 7
+    layer: 0
+    posX: -1.1
+    posY: -1.1
+  - symbol: 6
+    layer: 0
+    posX: 0
+    posY: -1.1
+  - symbol: 1
+    layer: 0
+    posX: 1.1
+    posY: -1.1
+  - symbol: 3
+    layer: 0
+    posX: -1.1
+    posY: 0
+  - symbol: 10
+    layer: 0
+    posX: 0
+    posY: 0
+  - symbol: 9
+    layer: 0
+    posX: 1.1
+    posY: 0
+  - symbol: 9
+    layer: 0
+    posX: -1.1
+    posY: 1.1
+  - symbol: 4
+    layer: 0
+    posX: 0
+    posY: 1.1
+  - symbol: 5
+    layer: 1
+    posX: -0.95000005
+    posY: -0.95000005
+  - symbol: 6
+    layer: 1
+    posX: 0.09499999
+    posY: -0.95000005
+  - symbol: 8
+    layer: 1
+    posX: 1.14
+    posY: -0.95000005
+  - symbol: 7
+    layer: 1
+    posX: -0.95000005
+    posY: 0.09499999
+  - symbol: 5
+    layer: 1
+    posX: 0.09499999
+    posY: 0.09499999
+  - symbol: 0
+    layer: 1
+    posX: 1.14
+    posY: 0.09499999
+  - symbol: 0
+    layer: 1
+    posX: -0.95000005
+    posY: 1.14
+  - symbol: 11
+    layer: 1
+    posX: 0.09499999
+    posY: 1.14
+  - symbol: 3
+    layer: 2
+    posX: -0.8
+    posY: -0.8
+  - symbol: 9
+    layer: 2
+    posX: 0.18999998
+    posY: -0.8
+  - symbol: 0
+    layer: 2
+    posX: 1.18
+    posY: -0.8
+  - symbol: 3
+    layer: 2
+    posX: -0.8
+    posY: 0.18999998
+  - symbol: 10
+    layer: 2
+    posX: 0.18999998
+    posY: 0.18999998
+  - symbol: 10
+    layer: 2
+    posX: 1.18
+    posY: 0.18999998
+  - symbol: 2
+    layer: 2
+    posX: -0.8
+    posY: 1.18
+  - symbol: 4
+    layer: 2
+    posX: 0.18999998
+    posY: 1.18
+  - symbol: 8
+    layer: 3
+    posX: -0.65
+    posY: -0.65
+  - symbol: 2
+    layer: 3
+    posX: 0.28500003
+    posY: -0.65
+  - symbol: 6
+    layer: 3
+    posX: 1.22
+    posY: -0.65
+  - symbol: 11
+    layer: 3
+    posX: -0.65
+    posY: 0.28500003
+  - symbol: 4
+    layer: 3
+    posX: 0.28500003
+    posY: 0.28500003
+  - symbol: 7
+    layer: 3
+    posX: 1.22
+    posY: 0.28500003
+  - symbol: 2
+    layer: 3
+    posX: -0.65
+    posY: 1.22
+  - symbol: 1
+    layer: 3
+    posX: 0.28500003
+    posY: 1.22
+  - symbol: 5
+    layer: 4
+    posX: -0.5
+    posY: -0.5
+  - symbol: 11
+    layer: 4
+    posX: 0.38000003
+    posY: -0.5
+  - symbol: 1
+    layer: 4
+    posX: 1.2600001
+    posY: -0.5
+  - symbol: 8
+    layer: 4
+    posX: -0.5
+    posY: 0.38000003

@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField] private AudioClip backgroundMusic;
     [SerializeField] private AudioClip clickSound;
+    [SerializeField] private AudioClip matchSound;
 
     private void Awake()
     {
@@ -48,5 +49,13 @@ public class AudioManager : MonoBehaviour
             return;
 
         sfxSource.PlayOneShot(clickSound);
+    }
+
+    public void PlayMatchSound()
+    {
+        if (sfxSource == null || matchSound == null)
+            return;
+
+        sfxSource.PlayOneShot(matchSound);
     }
 }
